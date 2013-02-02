@@ -1,11 +1,11 @@
 Summary:	C* Audio Plugin Suite
 Name:		ladspa-plugins-caps
-Version:	0.9.5
+Version:	0.9.7
 Release:	1
 License:	GPL v3
 Group:		Applications
 Source0:	http://quitte.de/dsp/caps_%{version}.tar.bz2
-# Source0-md5:	fe8b0ca0a6d92833d3da8ec6f9b06052
+# Source0-md5:	d74582d3ae7a4244d3a77501693bbdf3
 BuildRequires:	libstdc++-devel
 Requires:	ladspa-common
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
